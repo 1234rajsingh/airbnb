@@ -4,10 +4,10 @@ body{
  min-height: 100vh;
  margin: 0;
 }
-.container{
+/* .container{
     flex: 1;
-}
-/* .navbar */
+} */
+/* .navbar
 .navbar{
     top:0 !important;
     bottom: 0 !important;
@@ -27,7 +27,7 @@ body{
 }
 .f-info-links a:hover{
     text-decoration: underline;
-}
+} */
 .f-info-links,.f-info-social,.f-info-brname{
     width: 100%;
     display: flex;
@@ -103,3 +103,7 @@ editpage */
 .btns{
     display: flex;
 }
+
+
+
+
