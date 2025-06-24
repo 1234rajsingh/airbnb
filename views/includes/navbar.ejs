@@ -117,21 +117,21 @@
             </button>
           </form>
         </div>
+<ul class="navbar-nav mb-2 mb-lg-0">
+  <% if (!CurrUser) { %>
+    <li class="nav-item">
+      <a class="nav-link nav-item-toggle" href="/signup"><b>Sign Up</b></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav-item-toggle" href="/login"><b>Log In</b></a>
+    </li>
+  <% } else { %>
+    <li class="nav-item">
+      <a class="nav-link nav-item-toggle" href="/logout"><b>Log Out</b></a>
+    </li>
+  <% } %>
+</ul>
 
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link nav-item-toggle" href="/signup"><b>Sign Up</b></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-item-toggle" href="/login"><b>Log In</b></a>
-          </li>
-          <!-- Uncomment for logged in user -->
-          <!--
-          <li class="nav-item">
-            <a class="nav-link nav-item-toggle" href="/logout"><b>Log Out</b></a>
-          </li>
-          -->
-        </ul>
       </div>
     </div>
   </nav>
